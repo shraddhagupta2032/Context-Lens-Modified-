@@ -1,0 +1,7 @@
+{
+  "name": "Context-Lens: Your Universal Technical Expert",
+  "description": "A multimodal AI assistant that uses your camera and technical manuals to provide real-time, hands-free guidance for complex tasks.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
