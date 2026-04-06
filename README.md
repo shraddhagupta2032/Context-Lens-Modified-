@@ -45,10 +45,9 @@ Follow these steps to run the application on your local machine.
    cd context-lens
 
 2. **Install dependencies:**
-
-     Bash
+     ```bash
      npm install
- 3 **Configure Environment Variables:**
+3. **Configure Environment Variables:**
     Create a new file named .env in the root folder (or rename .env.example).
     Add your Gemini API key using the Vite prefix:
 
@@ -56,8 +55,9 @@ Follow these steps to run the application on your local machine.
    VITE_GEMINI_API_KEY="your_api_key_here"
    Start the Development Server:
 
-5. **Bash**
-   npm run dev
+5. **Run this**
+   ```bash
+     npm run dev
 6. **Open the App:**
    Visit http://localhost:3000 (or the port specified in your terminal) in your web browser. 
    Ensure your browser has permission to access the webcam.
